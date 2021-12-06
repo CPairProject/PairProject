@@ -18,7 +18,7 @@ $(".green").show()
 
 
 ////
-var time = 2
+var time = 3
  function cont(){
     
     var stop = setInterval(function(){
@@ -74,7 +74,7 @@ $(".b").show(800)
 $(".g").show(800) 
 if($(".red").click(function(){
 })){
-    console.log(time=2)
+    console.log(time=3)
 }
 
 }
@@ -131,7 +131,7 @@ $("#b1").show(800)
     
 if($(".g").click(function(){
 })){
-    console.log(time=1)}
+    console.log(time=3)}
     }
 
 
@@ -154,7 +154,7 @@ function blc(){
     $("#b1").hide(800)  
     if($(".pink2").click(function(){
     })){
-        console.log(time=2)}
+        console.log(time=3)}
         }
     
 
@@ -183,7 +183,7 @@ function service (){
     $(".btn").hide(800)
     $(".description").hide(800)
     $(".service").show(800)
-    $("#bck").hide()
+    $("#bck").show()
 
 }
 
