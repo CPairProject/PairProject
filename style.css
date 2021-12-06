@@ -1,9 +1,17 @@
 * {
   background-size: cover;
   margin: 0px;
-  background-image: url(https://images.hdqwalls.com/download/blur-background-6z-1920x1080.jpg);
+  background-image: url(https://swall.teahub.io/photos/small/2-26049_1920x1080-4k-ultra-hd-silver-photos-1080p-abstract.jpg);
 }
 .logo {
   font-size: 100px;
   color: aqua;
+}
+.btn {
+  font-size: 70px;
+  position: relative;
+  left: 39%;
+  margin-top: 15%;
+  background-color: bisque;
+  color: red;
 }
