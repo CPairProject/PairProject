@@ -2,7 +2,7 @@ $(".btn").click(function (){
 $(".btn").hide(800)})
 
  function cont(){
-    var tim = 60;
+    var tim = 3;
     var stop = setInterval(function(){
          tim--
          console.log(tim)
@@ -11,7 +11,7 @@ $(".btn").hide(800)})
         }if
         (tim===0){
         var stopFunction = clearInterval(stop)
-            document.getElementById('count').innerHTML ='your time is over'
+            alert("your time is over")
             }
            
         },1000);

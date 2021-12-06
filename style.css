@@ -3,6 +3,9 @@ body {
   background-image: url(https://wallpapertag.com/wallpaper/full/e/e/c/993031-best-purple-color-background-1920x1080-for-android-tablet.jpg);
 }
 .logo {
+  position: relative;
+  left: 10px;
+  top: 10px;
   font-size: 100px;
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
@@ -30,7 +33,7 @@ body {
 .btn {
   font-size: 70px;
   position: relative;
-  left: 39%;
+  left: 37%;
   margin-top: 15%;
   border-radius: 10px;
   color: rgb(255, 255, 255);
@@ -53,6 +56,9 @@ a {
   text-decoration: auto;
   color: aliceblue;
 }
-text {
-  background-color: rgb(255, 255, 255);
+#box {
+  width: 10%;
+  font-size: 25px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(204, 204, 204);
 }
