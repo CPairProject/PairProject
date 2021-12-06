@@ -1,7 +1,9 @@
 body {
+  margin: 0px;
   background-size: cover;
-  background-image: url(https://wallpapertag.com/wallpaper/full/e/e/c/993031-best-purple-color-background-1920x1080-for-android-tablet.jpg);
+  background-image: url(https://www.wallpapers4u.org/wp-content/uploads/light_glare_spots_circles_background_47333_1920x1080.jpg);
 }
+
 .logo {
   position: relative;
   left: 10px;
@@ -14,7 +16,6 @@ body {
 .logo {
   font-size: 80px;
   color: #fff;
-
   animation: glow 1s ease-in-out infinite alternate;
 }
 
@@ -30,7 +31,7 @@ body {
   }
 }
 .btn:hover {
-  background-color: rgba(38, 0, 255, 0.644);
+  background-color: rgba(38, 0, 255, 0.719);
 }
 .btn {
   font-size: 70px;
