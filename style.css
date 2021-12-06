@@ -55,7 +55,7 @@ a:hover {
   position: relative;
   top: -355px;
   left: 1210px;
-  font-size: 26px;
+  font-size: 40px;
   text-decoration: auto;
   color: aliceblue;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -67,8 +67,10 @@ a:hover {
   background-color: rgb(204, 204, 204);
 }
 .bt {
+  position: relative;
   color: #e0dddd;
   background-color: #3f38ab;
+  top: -10 px;
 }
 .bt:hover {
   background-color: slateblue;
@@ -81,10 +83,11 @@ a:hover {
   color: white;
   position: relative;
   left: 30%;
+  margin-top: 8%;
   background-color: rgba(43, 9, 240, 0.473);
 }
 #R {
-  color: white;
+  color: rgb(82, 30, 30);
   background-color: rgb(38, 0, 255);
   position: relative;
   width: 90px;
@@ -110,8 +113,8 @@ p {
   position: relative;
   left: 33%;
   margin-top: 10%;
-  background-color: yellow;
-  color: white;
+  background-color: rgb(185, 9, 9);
+  color: rgb(129, 9, 119);
 }
 .yallow {
   width: 141;
@@ -119,8 +122,8 @@ p {
   position: relative;
   left: 33%;
   margin-top: 10%;
-  background-color: rgb(255, 0, 0);
-  color: white;
+  background-color: rgb(15, 103, 109);
+  color: rgb(30, 180, 80);
 }
 .red {
   width: 139px;
@@ -129,7 +132,7 @@ p {
   left: 33%;
   margin-top: 10%;
   background-color: rgb(0, 17, 255);
-  color: white;
+  color: rgb(180, 128, 176);
 }
 .blue {
   width: 139px;
@@ -157,7 +160,7 @@ p {
   left: 33%;
   margin-top: 10%;
   background-color: rgb(247, 0, 255);
-  color: white;
+  color: rgb(56, 97, 143);
 }
 .g {
   width: 139px;
@@ -166,7 +169,7 @@ p {
   left: 33%;
   margin-top: 10%;
   background-color: rgb(0, 17, 255);
-  color: white;
+  color: rgb(153, 84, 84);
 }
 .b {
   width: 139px;
@@ -175,7 +178,7 @@ p {
   left: 33%;
   margin-top: 10%;
   background-color: rgb(255, 0, 0);
-  color: white;
+  color: rgb(128, 85, 85);
 }
 .p {
   width: 139px;
@@ -183,8 +186,8 @@ p {
   position: relative;
   left: 33%;
   margin-top: 10%;
-  background-color: rgba(255, 251, 0, 0.699);
-  color: white;
+  background-color: rgba(0, 255, 115, 0.699);
+  color: rgba(78, 0, 88, 0.904);
 }
 #b1 {
   color: white;
@@ -203,7 +206,7 @@ p {
   left: 33%;
   margin-top: 10%;
   background-color: rgb(0, 140, 255);
-  color: white;
+  color: rgb(14, 0, 136);
 }
 .maron {
   width: 139px;
@@ -212,7 +215,7 @@ p {
   left: 33%;
   margin-top: 10%;
   background-color: rgb(53, 192, 60);
-  color: white;
+  color: rgb(14, 7, 7);
 }
 .pink1 {
   width: 139px;
@@ -229,6 +232,90 @@ p {
   position: relative;
   left: 33%;
   margin-top: 10%;
-  background-color: rgb(0, 255, 76);
+  background-color: rgb(0, 0, 0);
+  color: rgb(83, 172, 157);
+}
+
+.black1 {
+  width: 139px;
+  font-size: 46px;
+  position: relative;
+  left: 33%;
+  margin-top: 10%;
+  background-color: rgb(110, 0, 253);
+  color: rgba(235, 217, 217, 0.932);
+}
+.maron1 {
+  width: 139px;
+  font-size: 46px;
+  position: relative;
+  left: 33%;
+  margin-top: 10%;
+  background-color: rgb(51, 111, 121);
+  color: rgba(75, 189, 218, 0.76);
+}
+.pink2 {
+  width: 200px;
+  font-size: 46px;
+  position: relative;
+  left: 33%;
+  margin-top: 10%;
+  background-color: rgb(63, 0, 0);
   color: white;
+}
+.purple1 {
+  width: 139px;
+  font-size: 46px;
+  position: relative;
+  left: 33%;
+  margin-top: 10%;
+  background-color: rgb(230, 0, 0);
+  color: rgb(0, 0, 0);
+}
+#b2 {
+  color: white;
+  background-color: rgb(202, 108, 0);
+  position: relative;
+  width: 139px;
+  left: 48%;
+  margin-top: 0%;
+  border: 2 px solid white;
+  text-align: center;
+}
+
+.winner {
+  color: white;
+  background-color: rgba(0, 17, 255, 0.507);
+  border: 2px solid rgb(255, 255, 255);
+  width: 630px;
+  font-size: 90px;
+  text-align: center;
+  position: relative;
+  left: 400px;
+  top: -29px;
+}
+
+.service {
+  color: white;
+  border: 2px solid white;
+  width: 650px;
+  font-size: 30px;
+  background-color: rgba(0, 0, 255, 0.377);
+  position: relative;
+  left: 415px;
+  top: 200px;
+}
+#bck {
+  position: relative;
+  top: -6px;
+  left: 90%;
+  color: white;
+  background-color: rgb(0, 0, 255, 0.377);
+  position: relative;
+  width: 90px;
+  left: 88%;
+  margin-top: 0%;
+  border: 2 px solid white;
+  text-align: center;
+  border-radius: 10px 0px 0px 10px;
 }

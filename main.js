@@ -1,10 +1,13 @@
+$("#bck").hide()
 $("#R").hide()
 $(".red").hide()
 $(".blue").hide()
 $(".yallow").hide()
 $(".green").hide()
 ///
+$("#box").hide()
 $(".btn").click(function (){
+    $("#box").show(800)
 $(".btn").hide(800)
 $("#R").show()
 $(".red").show()
@@ -15,7 +18,7 @@ $(".green").show()
 
 
 ////
-var time = 4
+var time = 2
  function cont(){
     
     var stop = setInterval(function(){
@@ -23,7 +26,7 @@ var time = 4
          console.log(time)
         if(time>=0){
             document.getElementById('count').innerHTML ="" + time
-        }if(time===0){
+        }if(time===-1){
         var stopFunction = clearInterval(stop)
             alert("your time is over")
             }
@@ -46,6 +49,8 @@ function about(){
     $(".a").hide(800)
     $(".btn").hide(800)
     $(".description").show()
+    $("#bck").show()
+
 }
 
 
@@ -69,7 +74,7 @@ $(".b").show(800)
 $(".g").show(800) 
 if($(".red").click(function(){
 })){
-    console.log(time=4)
+    console.log(time=2)
 }
 
 }
@@ -126,21 +131,60 @@ $("#b1").show(800)
     
 if($(".g").click(function(){
 })){
-    console.log(time=4)}
+    console.log(time=1)}
     }
+
+
+    $(".black1").hide()
+    $(".maron1").hide()
+    $(".pink2").hide()
+    $(".purple1").hide()
+    $("#b2").hide()
 
 function blc(){
     $(".black").hide(800)
     $(".maron").hide(800)
     $(".pink1").hide(800)
-    $(".purple").hide(800)    
+    $(".purple").hide(800)
+    $(".black1").show(800)
+    $(".maron1").show(800)
+    $(".pink2").show(800)
+    $(".purple1").show(800)
+    $("#b2").show(800)    
     $("#b1").hide(800)  
-    
-    if($(".g").click(function(){
+    if($(".pink2").click(function(){
     })){
-        console.log(time=4)}
+        console.log(time=2)}
         }
+    
 
-  
+$(".winner").hide()
+
+function winner(){
+    $(".black1").hide(800)
+    $(".maron1").hide(800)
+    $(".pink2").hide(800)
+    $(".purple1").hide(800)
+    $("#b2").hide(800)
+    $("#box").hide(800)
+    $("#bck").hide()
+
+    $(".winner").show(800)
+    if($(".pink2").click(function(){
+    })){
+        console.log(time=10000000)}
         
+}
+
+$(".service").hide()
+function service (){
+    $("#box").hide(800)
+    $(".a").hide(800)
+    $(".btn").hide(800)
+    $(".description").hide(800)
+    $(".service").show(800)
+    $("#bck").hide()
+
+}
+
     

@@ -13,12 +13,14 @@
      Color Game
 
     </div>
-<button onclick="cont()+ren()" class="btn">Start Game</button>
+<button onclick="cont()" class="btn">Start Game</button>
 <div class="a">
    <button class="bt">Home</button>
    <button onclick="about()" class="bt">About</button>
-   <button class="bt">Service</button>
+   <button onclick="service()" class="bt">Service</button>
 </div>
+<a href="file:///C:/Users/DELL/OneDrive/Bureau/PairProject/index.html"><button  onclick="back()"  id="bck"> back</button></a>
+
 <div>
     <h1 id="R"> Red </h1>
     <button onclick="lose()" class="blue" > blue </button>
@@ -39,19 +41,37 @@
 <div>
     <h1 id="b1">Black</h1>
     <button onclick="blc()+myCounter()" class="black" > black </button>
-    <button onclick="lose()" class="maron" > maron </button>
+    <button onclick="lose()" class="maron" > red </button>
     <button onclick="lose()" class="pink1" > pink </button>
     <button onclick="lose()"  class="purple" > purple </button>
 </div>
+<div>
+    <h1 id="b2">cyan</h1>
+    <button onclick="lose()" class="black1" > black </button>
+    <button onclick="lose()" class="maron1" > white </button>
+    <button onclick="blc()+myCounter()+winner()"class="pink2" > cyan </button>
+    <button onclick="lose()"  class="purple1" > red </button>
+</div>
 
 <div id="box"> 
-    <text>Time: <text id="count">4</text>
+    <text>Time: <text id="count">1 </text><br>
     <text>Score: <text id="Score">0</text>
 </div>
 
 <div class="description">
 <p><u style="font-size: 45px; color: red; ">Color Game</u> <br><br> Devloped By <u><a style="color: yellow;" href="">Iheb Moujehed</a> </u> & <u> <a style="color: rgb(238, 255, 0);" href="">Omar Massoudi</a> </u> <br> <br> Where you to pick the correct color in short time <br> <br> If You are young , Twenty Yers Old , Or even Adult <br> <br> It's doesn't matter Here you will have fun Indeed beside.. <br><br> you will learn How to think much more faster :) </p>
 </div>
+
+ <div class="winner">
+<p> You Won ! <br> congratulations</p>
+ </div>
+
+<div class="service">
+-HTML/CSS- : <a style="color: red;" href="https://www.facebook.com/profile.php?id=100032055698131"> Massoudi Omar</a>    ✆ +216 55 740 956 <br>
+-JAVA SCRIPT-  : <a style="color: red;" href="https://www.facebook.com/iheb.mjhd.1"> Iheb Moujahed</a> ✆ +216 28 766 406
+</div>
+
+
 
     <script src="main.js"></script>
 </body>
