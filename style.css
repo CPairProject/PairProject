@@ -1,17 +1,58 @@
-* {
+body {
   background-size: cover;
-  margin: 0px;
-  background-image: url(https://swall.teahub.io/photos/small/2-26049_1920x1080-4k-ultra-hd-silver-photos-1080p-abstract.jpg);
+  background-image: url(https://wallpapertag.com/wallpaper/full/e/e/c/993031-best-purple-color-background-1920x1080-for-android-tablet.jpg);
 }
 .logo {
   font-size: 100px;
-  color: aqua;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
+
+.logo {
+  font-size: 80px;
+  color: #fff;
+
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
 .btn {
   font-size: 70px;
   position: relative;
   left: 39%;
   margin-top: 15%;
-  background-color: bisque;
-  color: red;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(103, 179, 179);
+  cursor: pointer;
+}
+a:hover {
+  background: rgba(235, 231, 231, 0.342);
+}
+.btn:active {
+  background-color: #0684d8;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+a {
+  position: relative;
+  top: -355px;
+  left: 1210px;
+  font-size: 26px;
+  text-decoration: auto;
+  color: aliceblue;
+}
+#count{
+  border: ;
 }
