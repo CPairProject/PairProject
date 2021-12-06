@@ -1,0 +1,9 @@
+* {
+  background-size: cover;
+  margin: 0px;
+  background-image: url(https://images.hdqwalls.com/download/blur-background-6z-1920x1080.jpg);
+}
+.logo {
+  font-size: 100px;
+  color: aqua;
+}
