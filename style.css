@@ -34,7 +34,7 @@ body {
   margin-top: 15%;
   border-radius: 10px;
   color: rgb(255, 255, 255);
-  background-color: rgb(103, 179, 179);
+  background-color: rgb(15, 108, 196);
   cursor: pointer;
 }
 a:hover {
@@ -53,6 +53,6 @@ a {
   text-decoration: auto;
   color: aliceblue;
 }
-#count{
-  border: ;
+text {
+  background-color: rgb(255, 255, 255);
 }
