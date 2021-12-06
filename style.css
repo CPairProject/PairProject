@@ -40,7 +40,7 @@ body {
   margin-top: 15%;
   border-radius: 10px;
   color: rgb(255, 255, 255);
-  background-color: rgb(15, 108, 196);
+  background-color: rgba(79, 76, 241, 0.788);
   cursor: pointer;
 }
 a:hover {
@@ -72,4 +72,163 @@ a:hover {
 }
 .bt:hover {
   background-color: slateblue;
+}
+
+.description {
+  font-size: 25px;
+  border: 2px solid white;
+  width: 600px;
+  color: white;
+  position: relative;
+  left: 30%;
+  background-color: rgba(43, 9, 240, 0.473);
+}
+#R {
+  color: white;
+  background-color: rgb(38, 0, 255);
+  position: relative;
+  width: 90px;
+  left: 48%;
+  margin-top: 0%;
+  border: 2 px solid white;
+  text-align: center;
+}
+.Cl {
+  width: auto;
+  font-size: 46px;
+  position: relative;
+  left: 33%;
+  margin-top: 10%;
+}
+p {
+  padding-left: 25px;
+  text-align: center;
+}
+.green {
+  width: 139px;
+  font-size: 46px;
+  position: relative;
+  left: 33%;
+  margin-top: 10%;
+  background-color: yellow;
+  color: white;
+}
+.yallow {
+  width: 141;
+  font-size: 46px;
+  position: relative;
+  left: 33%;
+  margin-top: 10%;
+  background-color: rgb(255, 0, 0);
+  color: white;
+}
+.red {
+  width: 139px;
+  font-size: 46px;
+  position: relative;
+  left: 33%;
+  margin-top: 10%;
+  background-color: rgb(0, 17, 255);
+  color: white;
+}
+.blue {
+  width: 139px;
+  font-size: 46px;
+  position: relative;
+  left: 33%;
+  margin-top: 10%;
+  background-color: rgb(43, 255, 0);
+  color: white;
+}
+#G {
+  color: white;
+  background-color: rgb(202, 108, 0);
+  position: relative;
+  width: 90px;
+  left: 48%;
+  margin-top: 0%;
+  border: 2 px solid white;
+  text-align: center;
+}
+.r {
+  width: 139px;
+  font-size: 46px;
+  position: relative;
+  left: 33%;
+  margin-top: 10%;
+  background-color: rgb(247, 0, 255);
+  color: white;
+}
+.g {
+  width: 139px;
+  font-size: 46px;
+  position: relative;
+  left: 33%;
+  margin-top: 10%;
+  background-color: rgb(0, 17, 255);
+  color: white;
+}
+.b {
+  width: 139px;
+  font-size: 46px;
+  position: relative;
+  left: 33%;
+  margin-top: 10%;
+  background-color: rgb(255, 0, 0);
+  color: white;
+}
+.p {
+  width: 139px;
+  font-size: 46px;
+  position: relative;
+  left: 33%;
+  margin-top: 10%;
+  background-color: rgba(255, 251, 0, 0.699);
+  color: white;
+}
+#b1 {
+  color: white;
+  background-color: rgb(202, 108, 0);
+  position: relative;
+  width: 90px;
+  left: 48%;
+  margin-top: 0%;
+  border: 2 px solid white;
+  text-align: center;
+}
+.black {
+  width: 139px;
+  font-size: 46px;
+  position: relative;
+  left: 33%;
+  margin-top: 10%;
+  background-color: rgb(0, 140, 255);
+  color: white;
+}
+.maron {
+  width: 139px;
+  font-size: 46px;
+  position: relative;
+  left: 33%;
+  margin-top: 10%;
+  background-color: rgb(53, 192, 60);
+  color: white;
+}
+.pink1 {
+  width: 139px;
+  font-size: 46px;
+  position: relative;
+  left: 33%;
+  margin-top: 10%;
+  background-color: rgb(255, 72, 0);
+  color: white;
+}
+.purple {
+  width: 139px;
+  font-size: 46px;
+  position: relative;
+  left: 33%;
+  margin-top: 10%;
+  background-color: rgb(0, 255, 76);
+  color: white;
 }
