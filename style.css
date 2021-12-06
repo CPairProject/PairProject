@@ -30,7 +30,7 @@ body {
   }
 }
 .btn:hover {
-  background-color: ;
+  background-color: rgba(38, 0, 255, 0.644);
 }
 .btn {
   font-size: 70px;
@@ -50,17 +50,25 @@ a:hover {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-a {
+.a {
   position: relative;
   top: -355px;
   left: 1210px;
   font-size: 26px;
   text-decoration: auto;
   color: aliceblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 #box {
   width: 10%;
   font-size: 25px;
   border: 2px solid rgb(0, 0, 0);
   background-color: rgb(204, 204, 204);
+}
+.bt {
+  color: #e0dddd;
+  background-color: #3f38ab;
+}
+.bt:hover {
+  background-color: slateblue;
 }
