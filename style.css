@@ -6,8 +6,8 @@ body {
 
 .logo {
   position: relative;
-  left: 10px;
-  top: 10px;
+  left: 36px;
+  top: 29px;
   font-size: 100px;
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
@@ -42,6 +42,7 @@ body {
   color: rgb(255, 255, 255);
   background-color: rgba(79, 76, 241, 0.788);
   cursor: pointer;
+  top: 135 px;
 }
 a:hover {
   background: rgba(235, 231, 231, 0.342);
@@ -87,14 +88,15 @@ a:hover {
   background-color: rgba(43, 9, 240, 0.473);
 }
 #R {
-  color: rgb(82, 30, 30);
-  background-color: rgb(38, 0, 255);
+  color: rgb(68, 0, 255);
+  background-color: rgb(255, 0, 0);
   position: relative;
   width: 90px;
   left: 48%;
   margin-top: 0%;
   border: 2 px solid white;
   text-align: center;
+  border-radius: 5px;
 }
 .Cl {
   width: auto;
@@ -152,6 +154,7 @@ p {
   margin-top: 0%;
   border: 2 px solid white;
   text-align: center;
+  border-radius: 5px;
 }
 .r {
   width: 139px;
@@ -198,6 +201,7 @@ p {
   margin-top: 0%;
   border: 2 px solid white;
   text-align: center;
+  border-radius: 5px;
 }
 .black {
   width: 139px;
@@ -281,6 +285,7 @@ p {
   margin-top: 0%;
   border: 2 px solid white;
   text-align: center;
+  border-radius: 5px;
 }
 
 .winner {
@@ -291,8 +296,24 @@ p {
   font-size: 90px;
   text-align: center;
   position: relative;
-  left: 400px;
+  left: 490px;
   top: 39px;
+}
+
+.winner {
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
 }
 
 .service {
@@ -349,4 +370,9 @@ button {
 .title {
   color: #e60073;
   text-align: center;
+}
+
+.loser {
+  border: 1px solid white;
+  background-color: blue;
 }

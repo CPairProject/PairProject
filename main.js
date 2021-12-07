@@ -30,7 +30,7 @@ var time = 3
             document.getElementById('count').innerHTML ="" + time
         }if(time===-1){
         var stopFunction = clearInterval(stop)
-            alert("your time is over")
+          ///  alert("your time is over")
             }
            
         },1000);
@@ -43,7 +43,11 @@ var time = 3
     }
     };
 
-
+function stop(){
+    if (time === -1){
+    return  alert ("Please try Again")
+    }
+}
 ////////////////////////////
 $(".description").hide()
 function about(){
@@ -171,7 +175,7 @@ function winner(){
     $("#box").hide(800)
     $("#bck").hide()
 
-    $(".winner").show(800)
+    $(".winner").show(600)
     if($(".pink2").click(function(){
     })){
         console.log(time=10000000)}
