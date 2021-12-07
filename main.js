@@ -14,6 +14,8 @@ $(".red").show()
 $(".blue").show()
 $(".yallow").show()
 $(".green").show()
+$(".z").hide(800)
+
 })
 
 
@@ -184,6 +186,22 @@ function service (){
     $(".description").hide(800)
     $(".service").show(800)
     $("#bck").show()
+
+}
+
+
+$(".rules").hide()
+function rle(){
+$(".rules").show(800)
+$("#box").hide(800)
+$(".a").hide(800)
+$(".btn").hide(800)
+$(".description").hide(800)
+$(".z").hide(800)
+$(".rules").show()
+$("#bck").show()
+
+
 
 }
 
